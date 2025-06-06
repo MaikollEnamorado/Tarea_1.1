@@ -1,5 +1,12 @@
 import 'CuentaBancaria.dart' show Cuentabancaria;
 void main(){
+  /*
+  5. Cree una clase CuentaBancaria que tenga las propiedades titular y saldo. Implemente métodos 
+      para: 
+        a. Depositar dinero. 
+        b. Retirar dinero (asegurándote de que el saldo no sea negativo). 
+        c. Consultar el saldo.
+   */
   Cuentabancaria cuenta = Cuentabancaria(titular: "Jose Matute", saldo: 100);
 
   cuenta.consultarSaldo();

@@ -19,6 +19,7 @@ class Biblioteca {
   }
 
   void buscarLibro(int anioPublicacion){
+    print("Libro encontrado: ");
     for(final libro in _libros){
       if(libro.anioPublicacion == anioPublicacion){
         print("Titulo del libro: ${libro.titulo}, anio de publicacion: ${libro.anioPublicacion}");  
@@ -27,6 +28,7 @@ class Biblioteca {
   }
 
   void listaLibros(){
+    print("Lista de los libros: ");
     for(final libro in _libros){
       print("Titulo del libro: ${libro.titulo}, autor: ${libro.autor}, anio de publicacion: ${libro.anioPublicacion}");
     }

@@ -3,9 +3,9 @@
   # 1800 - LENGUAJES DE PROGRAMACION
   Universidad Nacional Autonoma de Honduras
   
-  ## Integrantes: 
+  ## Integrante: 
 
-  Maikoll Javier Enamorado Miranda
+  Maikoll Javier Enamorado Miranda 20212000730
 
   ## Actividad:
 
